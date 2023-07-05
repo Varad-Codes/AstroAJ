@@ -1,0 +1,168 @@
+:root {
+    --nav-background: #0a0a0a;
+
+    --black: #202020;
+    --white: #ebebeb;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--nav-background);
+    text-align: center;
+}
+
+li {
+    float: left;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: var(--nav-background);
+}
+
+.prallax {
+    background: url("../assets/1138877.jpg") no-repeat center center fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.hero {
+    background-image: url("../assets/1138877.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: #0a0a0a;
+
+    padding: 250px 150px 250px 150px;
+    text-align: center;
+
+    font-size: large;
+    font-weight: bold;
+}
+.hero-text {
+    background: transparent;
+    padding-left: 50%;
+
+    /* padding-right: 25%; */
+}
+
+.about {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+}
+#mama-img {
+    border-radius: 50%;
+    display: inline;
+}
+
+.abilites{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card{
+    background-color: var(--nav-background);
+    color: var(--white);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+.card img{
+    border-radius: 25%;
+}
+.card h2{
+    background: transparent;
+}
+
+.socials{
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+
+/* Responsive CSS */
+@media only screen and (min-width: 316px) {
+    .hero{
+        padding: 150px 50px 150px 50px;
+        color: #ebebeb;
+    }
+    .hero-text{
+        color: aliceblue;
+        padding-left: 5px;
+    }
+}
+@media only screen and (max-width: 432px) {
+    .hero{
+        padding: 150px 50px 150px 50px;
+        color: #ebebeb;
+    }
+    .hero-text{
+        color: aliceblue;
+        padding-left: 15px;
+    }
+}
+@media only screen and (min-width: 425px) {
+    .hero{
+        padding: 150px 50px 150px 50px;
+        color: #ebebeb;
+    }
+    .hero-text{
+        color: aliceblue;
+    }
+}
+@media only screen and (min-width: 512px) {
+    .hero{
+        padding: 150px 50px 150px 50px;
+        color: #ebebeb;
+    }
+    .hero-text{
+        color: aliceblue;
+    }
+}
+
+@media only screen and (min-width: 834px) {
+    .hero-text{
+        color: var(--black);
+    }
+}
+@media only screen and (min-width: 902px) {
+    .hero-text{
+        color: var(--black);
+    }
+}
+
+@media only screen and (min-width: 1206px) {
+    .hero-text{
+        color: var(--white);
+    }
+}
